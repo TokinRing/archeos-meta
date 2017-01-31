@@ -118,7 +118,7 @@ Description: ArcheOS GIS metapackage
  .
  It is also used to help ensure proper upgrades, so it is recommended that
  it not be removed.
- 
+
 Package: archeos-hardware
 Architecture: all
 Depends: totalopenstation, cura, ${misc:Depends}
@@ -126,7 +126,7 @@ Description: ArcheOS hardware metapackage
  This package depends on all of the packages in the ArcheOS hardware section.
  .
  It is also used to help ensure proper upgrades, so it is recommended that
- it not be removed. 
+ it not be removed.
 
 Package: archeos-cad
 Architecture: all
@@ -154,7 +154,7 @@ Description: ArcheOS Graphics metapackage
  .
  It is also used to help ensure proper upgrades, so it is recommended that
  it not be removed.
- 
+
 
 Package: archeos-internet
 Architecture: all
@@ -163,8 +163,8 @@ Description: ArcheOS Internet metapackage
  This package depends on all of the packages in the ArcheOS Internet section.
  .
  It is also used to help ensure proper upgrades, so it is recommended that
- it not be removed. 
- 
+ it not be removed.
+
 Package: archeos-office
 Architecture: all
 Depends: geany, libreoffice, ${misc:Depends}
@@ -172,26 +172,26 @@ Description: ArcheOS Office metapackage
  This package depends on all of the packages in the ArcheOS Office section.
  .
  It is also used to help ensure proper upgrades, so it is recommended that
- it not be removed.  
+ it not be removed.
 
 Package: archeos-photogrammetry
 Architecture: all
 Depends: libvlfeat0, cmvspmvs, ${misc:Depends}
 Description: ArcheOS Photogrammetry metapackage
- This package depends on all of the packages in the ArcheOS 
+ This package depends on all of the packages in the ArcheOS
  Photogrammetry section.
  .
  It is also used to help ensure proper upgrades, so it is recommended that
  it not be removed.
- 
+
 Package: archeos-publishing
 Architecture: all
-Depends: texmaker, texlive-fonts-extra, jabref, ipe, scribus, lyx, pandoc, nexus, ${misc:Depends}
+Depends: texmaker, texlive-fonts-extra, jabref, ipe, scribus, lyx, pandoc, nexus-tools, ${misc:Depends}
 Description: ArcheOS Publishing metapackage
  This package depends on all of the packages in the ArcheOS Publishing section.
  .
  It is also used to help ensure proper upgrades, so it is recommended that
- it not be removed. 
+ it not be removed.
 
 Package: archeos-science
 Architecture: all
@@ -210,7 +210,7 @@ Description: ArcheOS Statistics metapackage
  .
  It is also used to help ensure proper upgrades, so it is recommended that
  it not be removed.
- 
+
 Package: archeos-utilities
 Architecture: all
 Depends: synaptic, file-roller, less, ${misc:Depends}
@@ -218,8 +218,8 @@ Description: ArcheOS utilities metapackage
  This package depends on all of the packages in the ArcheOS Statistics section.
  .
  It is also used to help ensure proper upgrades, so it is recommended that
- it not be removed. 
- 
+ it not be removed.
+
 Package: archeos-webgis
 Architecture: all
 Depends: josm, mapserver-bin, ${misc:Depends}
@@ -227,7 +227,7 @@ Description: ArcheOS WebGIS metapackage
  This package depends on all of the packages in the ArcheOS WebGIS section.
  .
  It is also used to help ensure proper upgrades, so it is recommended that
- it not be removed. 
+ it not be removed.
 
 Package: archeos-other
 Architecture: all
@@ -237,4 +237,3 @@ Description: ArcheOS other metapackage
  .
  It is also used to help ensure proper upgrades, so it is recommended that
  it not be removed.
-
